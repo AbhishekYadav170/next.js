@@ -1,11 +1,14 @@
-import React from 'react'
+"use client"
 
-const page = () => {
+import { useState, useEffect } from "react"
+
+export default function Home() {
+  const [count, setCount] = useState(0)
+
   return (
     <div>
-      <h1>home page </h1>
+      i am a components {count}
+      <button onClick={()=> setCount(count +1)}>click</button>
     </div>
   )
 }
-
-export default page
