@@ -1,13 +1,15 @@
 import React from 'react'
+import Link from 'next/link'
+
 
 const Navbar = () => {
   return (
-   <nav>
+   <nav className='flex justify-between px-4 bg-slate-800 text-white py-4'>
     <div className='logo font-bold'>Facebook</div>
-    <ul>
-        <a href='/'><li>Home</li></a>
-        <a href='/about'><li>About</li></a>
-        <a href='/contact'><li>Contcat</li></a>
+    <ul className='flex gap-6'>
+        <Link href='/'><li>Home</li></Link>
+        <Link href='/about'><li>About</li></Link>
+        <Link href='/contact'><li>Contcat</li></Link>
     </ul>
    </nav>
   )
