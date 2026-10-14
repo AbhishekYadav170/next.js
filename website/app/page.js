@@ -4,6 +4,7 @@ export default function Home() {
  return (
   <div>
      This is a home page 
+     <p>PAGESE</p>
   </div>
  )
 }
