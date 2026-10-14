@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <div>
-      i am a components {count}
+      This is a components {count}
       <button onClick={()=> setCount(count +1)}>click</button>
     </div>
   )
