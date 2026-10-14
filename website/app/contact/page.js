@@ -5,7 +5,7 @@ import React from 'react'
 const contact = () => {
   return (
     <div>
-        <Script>{` alert ("Wlcome to my contact page ");`}</Script>
+        <Script>{` alert ("Wlcome to my new  contact page ");`}</Script>
       Contact
     </div>
   )
